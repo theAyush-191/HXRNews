@@ -12,7 +12,7 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             List(networkManager.posts) { post in
-                NavigationLink(destination: Text(post.title)){
+                NavigationLink(destination: DefinedView(url: post.url)){
                     HStack{
                         Text(String(post.points))
                         Text(post.title)

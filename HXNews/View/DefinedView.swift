@@ -8,11 +8,15 @@
 import SwiftUI
 
 struct DefinedView: View {
+    let url:String?
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        if let urlString = url{
+            WebView(urlString: urlString)
+        }
     }
 }
 
 #Preview {
-    DefinedView()
+    DefinedView(url:nil)
 }
+
