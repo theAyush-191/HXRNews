@@ -18,7 +18,7 @@ struct ContentView: View {
                         Text(post.title)
                     }
                 }
-            }.navigationTitle(Text("HX News"))
+            }.navigationTitle(Text("HXR News"))
 
         }.onAppear {
             self.networkManager.fetchData()

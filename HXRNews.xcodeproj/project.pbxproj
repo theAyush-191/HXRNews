@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		A91613722E1055DF0094CBE4 /* HXNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HXNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A91613722E1055DF0094CBE4 /* HXRNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HXRNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		A91613742E1055DF0094CBE4 /* HXNews */ = {
+		A91613742E1055DF0094CBE4 /* HXRNews */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = HXNews;
+			path = HXRNews;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		A91613692E1055DF0094CBE4 = {
 			isa = PBXGroup;
 			children = (
-				A91613742E1055DF0094CBE4 /* HXNews */,
+				A91613742E1055DF0094CBE4 /* HXRNews */,
 				A91613732E1055DF0094CBE4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +40,7 @@
 		A91613732E1055DF0094CBE4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A91613722E1055DF0094CBE4 /* HXNews.app */,
+				A91613722E1055DF0094CBE4 /* HXRNews.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A91613712E1055DF0094CBE4 /* HXNews */ = {
+		A91613712E1055DF0094CBE4 /* HXRNews */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A916137D2E1055E10094CBE4 /* Build configuration list for PBXNativeTarget "HXNews" */;
+			buildConfigurationList = A916137D2E1055E10094CBE4 /* Build configuration list for PBXNativeTarget "HXRNews" */;
 			buildPhases = (
 				A916136E2E1055DF0094CBE4 /* Sources */,
 				A916136F2E1055DF0094CBE4 /* Frameworks */,
@@ -61,13 +61,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				A91613742E1055DF0094CBE4 /* HXNews */,
+				A91613742E1055DF0094CBE4 /* HXRNews */,
 			);
-			name = HXNews;
+			name = HXRNews;
 			packageProductDependencies = (
 			);
 			productName = HXNews;
-			productReference = A91613722E1055DF0094CBE4 /* HXNews.app */;
+			productReference = A91613722E1055DF0094CBE4 /* HXRNews.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A916136D2E1055DF0094CBE4 /* Build configuration list for PBXProject "HXNews" */;
+			buildConfigurationList = A916136D2E1055DF0094CBE4 /* Build configuration list for PBXProject "HXRNews" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A91613712E1055DF0094CBE4 /* HXNews */,
+				A91613712E1055DF0094CBE4 /* HXRNews */,
 			);
 		};
 /* End PBXProject section */
@@ -301,7 +301,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A916136D2E1055DF0094CBE4 /* Build configuration list for PBXProject "HXNews" */ = {
+		A916136D2E1055DF0094CBE4 /* Build configuration list for PBXProject "HXRNews" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A916137B2E1055E10094CBE4 /* Debug */,
@@ -310,7 +310,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A916137D2E1055E10094CBE4 /* Build configuration list for PBXNativeTarget "HXNews" */ = {
+		A916137D2E1055E10094CBE4 /* Build configuration list for PBXNativeTarget "HXRNews" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A916137E2E1055E10094CBE4 /* Debug */,
